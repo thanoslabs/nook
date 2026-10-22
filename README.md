@@ -29,7 +29,7 @@ npm run dev         # http://localhost:5173
 Suggestions while typing need a free [Geoapify](https://www.geoapify.com/) API key. Without one, search still works on Enter/Search.
 
 1. Create a Geoapify project and copy its API key.
-2. In the Geoapify dashboard, restrict the key's allowed origins to `https://ctrl-research.github.io` and `http://localhost:5173`. It ships in the page by design, so this is what stops other sites using it.
+2. In the Geoapify dashboard, restrict the key's allowed origins to `https://thanoslabs.github.io` and `http://localhost:5173`. It ships in the page by design, so this is what stops other sites using it.
 3. Locally: put `VITE_GEOAPIFY_KEY=<key>` in `.env.local` (git-ignored).
 4. Deployed site: add a repository **variable** (not a secret) named `VITE_GEOAPIFY_KEY` under Settings → Secrets and variables → Actions. The Pages workflow reads it at build time.
 

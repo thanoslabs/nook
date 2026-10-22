@@ -42,7 +42,7 @@ npm run build      # typecheck + vite build → dist/
 .
 ├── .agents/                  # Agent instructions and skills
 ├── .github/
-│   ├── CODEOWNERS            # @ctrl-research/reviewers
+│   ├── CODEOWNERS            # @thanoslabs/reviewers
 │   ├── renovate-config.js    # Renovate platform config
 │   └── workflows/
 │       ├── ci.yml            # Sensitive-file/YAML checks + typecheck, test, build
